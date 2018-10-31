@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>//Created on: 30-Oct-2018
+//Created by: Wendi Yu
+//Created for: ICS3UR
+// made to show the alphabet to lowercase alphabet and the Unicode value
+
+var letter = UnicodeScalar(65)
+
+for outCount in 65 ... 90 {
+    for inCount in 97 ... 122 {
+        var letter = UnicodeScalar(outCount)
+        var lowLetter = UnicodeScalar(inCount)
+            show("\(letter!) =&gt; \(lowLetter!)")
+        }
+    }
+    
+</string>
+			<key>ModifiedRange</key>
+			<string>{145, 398}</string>
+			<key>OriginalContent</key>
+			<string>show("What is your name?")
+
+let name = ask("Name")
+
+show("Hi " + name)
+</string>
+			<key>OriginalRange</key>
+			<string>{145, 71}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Answers.playgroundchapter/Pages/Text.playgroundpage/Contents.swift</string>
+</dict>
+</plist>
